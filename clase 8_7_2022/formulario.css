@@ -1,0 +1,61 @@
+body{
+    background: url(https://i.ytimg.com/vi/qTu_ZrQG9Y0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDcKkr6AhJybtYXeuaJ-TB1lH5MXQ);
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Joan', serif;
+    height: 100vh;
+    }
+
+
+nav{
+    background-color: rgba(119,136,153,0,212);
+    width: 100%;
+}
+
+.menu{
+list-style: none;
+margin: 0;
+padding: 0;
+width: 100%;
+}
+.lista a{
+    text-decoration: none;
+    color:white;
+    display: block;
+    padding: 15px 50px;
+}
+.menu .lista{
+    display: inline-block;
+}
+
+.lista-r{
+
+float: right;
+}
+.lista a:hover{
+    background-color: tomato;
+}
+
+main{
+    text-align: center;
+}
+
+#contenedor{
+
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+label{
+color: black;
+font-size: 22px;
+font-weight: 10
+;
+
+}
+
